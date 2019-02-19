@@ -1,6 +1,6 @@
 /**
  * @Author      Nathan Chen
- * @Version     2-18-19
+ * @Version     2-19-19
  * @Teacher     Coglianese
  * @Period      2
  * 
@@ -11,7 +11,6 @@ public class Driver01
 {
     public static final int NUMITEMS = 10;
     private static double sum, avg, min, max;
-    
     /**
      * Main executes according to Lab01
      * 
@@ -30,8 +29,10 @@ public class Driver01
         max = array[0];
         for(double d:array){
             sum += d;
-            if (d>max){max = d;}
-            if (d<min){min = d;}
+            if (d>max)
+                max = d;
+            if (d<min)
+                min = d;
         }
         avg = sum/NUMITEMS;
         System.out.println("\nSum: " + sum + "\nAvg: " + avg + "\nMin: " + min + "\nMax: " + max);
