@@ -20,18 +20,19 @@ public class Driver02
     public static void main(String[] args)
     {
         double[] array = new double[NUMITEMS];
+        double[] cel = new double[NUMITEMS];
         Scanner keyboard = new Scanner(System.in);
         for(int x = 0; x < 10; x++){
             System.out.print("#" + (x+1) + ": ");
             array[x] = keyboard.nextDouble();
         }
-        for(int x = 10; x < 15; x++){
+        for(int x = 10; x < NUMITEMS; x++){
             array[x] = Math.random() * 999.9;
         }
         System.out.println("\nFahrenheit\t| Celsius\n----------------|------------------");
-        for(double d: array){
-            double c = 5.0/9.0*(d-32.0);
-            System.out.println(String.format("%.1f",d) + "\t\t| " + String.format("%.1f",c));
+        for(int x = 0; x<NUMITEMS; x++){
+            cel[x] = 5.0/9.0*(array[x]-32.0);
+            System.out.println(String.format("%.1f",array[x]) + "\t\t| " + String.format("%.1f",cel[x]));
         }
     }
 }
