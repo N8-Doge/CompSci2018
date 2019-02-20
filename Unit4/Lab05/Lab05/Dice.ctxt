@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Dice
+comment0.text=\r\n\ @author\ \ \ \ \ \ Nathan\ Chen\r\n\ @teacher\ \ \ \ \ Coglianese\r\n\ @version\ \ \ \ \ \#-\#\#-19\r\n\ @period\ \ \ \ \ \ 2\r\n\ \r\n\ A\ virtual\ pair\ of\ dice\r\n
+comment1.params=
+comment1.target=Dice()
+comment1.text=\r\n\ Default\ constructor\ for\ Dice\ sets\ instance\ vars\r\n
+comment2.params=
+comment2.target=void\ roll()
+comment2.text=\r\n\ Give\ instance\ variables\ new\ values\r\n
+comment3.params=
+comment3.target=int\ total()
+comment3.text=\r\n\ Returns\ total\ of\ instance\ variables\r\n\ \r\n\ @return\ \ \ \ int\ \ \ \ Total\ of\ dice\r\n
+comment4.params=
+comment4.target=boolean\ doubles()
+comment4.text=\r\n\ Returns\ if\ the\ two\ dice\ are\ the\ same\r\n\ \r\n\ @return\ \ \ \ boolean\ \ \ If\ the\ two\ dice\ are\ equal\r\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\r\n\ Returns\ string\ for\ the\ two\ dice\r\n\ \r\n\ @return\ \ \ \ String\ \ \ \ Interpretation\ of\ dice\r\n
+comment6.params=
+comment6.target=int\ random()
+comment6.text=\r\n\ Give\ a\ random\ integer\ between\ 1\ and\ 6\r\n\ \r\n\ @return\ \ \ \ int\ \ \ \ Value\ between\ 1\ and\ 6\r\n
+numComments=7

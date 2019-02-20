@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Triangle
+comment1.params=x
+comment1.target=Triangle(double)
+comment2.params=
+comment2.target=double\ findArea()
+comment3.params=
+comment3.target=double\ findPerimeter()
+comment4.params=
+comment4.target=double\ getSide()
+comment5.params=x
+comment5.target=void\ setSide(double)
+numComments=6
