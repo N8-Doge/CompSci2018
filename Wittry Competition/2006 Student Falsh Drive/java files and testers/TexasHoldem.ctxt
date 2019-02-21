@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=TexasHoldem
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ TexasHoldem\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ 2006\ Southern\ California\ programming\ contest\r\n
+comment1.params=cs\ ps
+comment1.target=TexasHoldem(Card[],\ Player[])
+comment1.text=\r\n\ \ Constructor\ need\ for\ TexasHoldem\ class\r\n
+comment2.params=
+comment2.target=java.lang.String\ getWinner()
+comment2.text=\r\n\ @param\ \ y\ \ \ \r\n\ @return\ \ \ \ \ the\ name\ of\ the\ player\ with\ the\ winning\ hand\r\n
+numComments=3

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=TheTaskMaster
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ TheTaskMaster\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ 2006\ Southern\ California\ programming\ contest\r\n
+comment1.params=num
+comment1.target=TheTaskMaster(int)
+comment1.text=\r\n\ Constructor\ need\ for\ TheTaskMaster\ class\r\n
+comment2.params=taskList
+comment2.target=int\ findMinTime(int[])
+comment2.text=\r\n\ @param\ \ y\ \ \ \r\n\ @return\ \ \ \ \ the\ min\ work\ time\r\n
+numComments=3

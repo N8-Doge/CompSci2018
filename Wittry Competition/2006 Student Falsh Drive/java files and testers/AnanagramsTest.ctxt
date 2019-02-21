@@ -1,4 +1,6 @@
 #BlueJ class context
-comment0.params=
-comment0.target=void\ testAnanagrams01()
-numComments=1
+comment0.target=AnanagramsTest
+comment0.text=\r\n\ The\ test\ class\ AnanagramsTest.\r\n\r\n\ @author\ \ \r\n\ @version\ \r\n
+comment1.params=
+comment1.target=void\ testAnanagrams01()
+numComments=2

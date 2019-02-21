@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Card
+comment0.text=\r\n\ \ Card\ class\ correctly\ implemented.\r\n\ \r\n\ @author\ your\ friendly\ provider\ \r\n\ 2006\ Southern\ California\ programming\ contest\r\n
+comment1.params=v\ s
+comment1.target=Card(java.lang.String,\ java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ getValue()
+comment3.params=
+comment3.target=java.lang.String\ getSuit()
+numComments=4

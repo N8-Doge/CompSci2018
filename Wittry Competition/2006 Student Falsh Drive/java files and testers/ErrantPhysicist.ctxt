@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=ErrantPhysicist
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ ErrantPhysicist\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ 2006\ Southern\ California\ programming\ contest\r\n
+comment1.params=firstTerm\ SecondTerm
+comment1.target=java.lang.String[]\ getResult(java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ No\ Constructor\ need\ for\ ErrantPhysicist\ class\r\n
+numComments=2

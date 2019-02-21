@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Location
+comment0.text=\r\n\ Location\ correctly\ implemeted.\r\n\ \r\n\ @author\ your\ f(r)iendly\ provider\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=x\ y
+comment1.target=Location(int,\ int)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Location\r\n
+comment2.params=
+comment2.target=int\ getX()
+comment3.params=
+comment3.target=int\ getY()
+numComments=4

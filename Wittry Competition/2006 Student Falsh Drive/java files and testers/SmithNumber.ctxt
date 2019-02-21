@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=SmithNumber
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ SmithNumber\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ 2006\ Southern\ California\ programming\ contest\r\n
+comment1.params=y
+comment1.target=int\ findSmallestSmithNumberStrictlyGreaterThan(int)
+numComments=2

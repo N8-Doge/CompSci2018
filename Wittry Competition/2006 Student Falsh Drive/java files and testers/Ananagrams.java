@@ -19,42 +19,43 @@ public class Ananagrams
 
     public String[] getResult()
     {
-        ArrayList<String> arr = new ArrayList<String>();
-        for(String s:wordList)
-            arr.add(s);
-        for(int i=arr.size()-1;i<0;i++){
-            for(int j=i-1;j<=0;j++){
-                if(anagram(arr.get(i),arr.get(j))){
-                    arr.remove(i);
-                    arr.remove(j);
-                }
+        ArrayList<String> uniqueDict = new ArrayList<String>();
+        for(int i=0;i<wordList.length;i++){
+            if(check(wordList[i],wordList)){
+                uniqueDict.add(wordList[i]);
             }
         }
-        Collections.sort(arr);
-        String[] result = new String[arr.size()];
-        for(int i=0;i<arr.size();i++){
-            result[i]=arr.get(i);
+        Collections.sort(uniqueDict);
+        String[] result = new String[uniqueDict.size()];
+        for(int i=0;i<result.length;i++){
+            result[i]=uniqueDict.get(i);
         }
         return result;
     }
 
     public String sortString(String s)
     {
+        String ans = "";
         int length = s.length();
         ArrayList<String> arr = new ArrayList<String>();
         for(int i=0;i<length;i++){
             arr.add(s.substring(i,i+1).toUpperCase());
         }
         Collections.sort(arr);
-        String ans = "";
         for(String part:arr){
             ans+=part;
         }
         return ans;
     }
-    
-    public boolean anagram(String s, String t)
+
+    public boolean check(String s, String[] arr)
     {
-        return (sortString(s).equals(sortString(t)));
+        int i=0;
+        for(String a:arr){
+            if(sortString(s).equals(sortString(a))){
+                i++;
+            }
+        }
+        return i==1;
     }
 }

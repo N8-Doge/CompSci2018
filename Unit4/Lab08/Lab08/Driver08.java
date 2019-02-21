@@ -23,8 +23,9 @@ public class Driver08
                 break;
             int check=-1;
             for(int i=0;i<numItems;i++){
-                if(myWord.equals(wordlist[i])){
+                if(myWord.toUpperCase().equals(wordlist[i].toUpperCase())){
                     check=i;
+                    break;
                 }
             }
             if(check!=-1)
