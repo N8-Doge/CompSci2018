@@ -1,3 +1,6 @@
+import java.util.*;
+import java.io.*;
+import javax.swing.JOptionPane;
 /**
  * @Author      Nathan Chen
  * @Version     2-22-19
@@ -6,11 +9,9 @@
  * 
  * Driver04 for Lab04
  */
-import java.util.*;
-import java.io.*;
-import javax.swing.JOptionPane;
 public class Driver04
 {
+    //Instance variables
     private static Scanner infile;
     private static String filename;
     private static double sum,avg,max,min;
@@ -22,13 +23,12 @@ public class Driver04
      */
     public static void main(String[] args)
     {
-        boolean b = true;
         do{
             try
             {
                 filename = JOptionPane.showInputDialog("Enter filename");
                 infile = new Scanner( new File(filename) );
-                b = false;
+                break;
             }
             catch(FileNotFoundException e)
             {
@@ -39,15 +39,23 @@ public class Driver04
                 }
                 JOptionPane.showMessageDialog(null, "Error: File not found.");
             }
-        }while(b);
+        }while(true);
+        numItems=infile.nextInt();
+        boolean init = true;
         while (infile.hasNextDouble()){
             double d = infile.nextDouble();
             sum += d;
-            if (d>max | numItems==0)
+            if (d>max){
                 max = d;
-            if (d<min | numItems==0)
+            }
+            if (d<min){
                 min = d;
-            numItems++;
+            }
+            if (init){
+                init=!init;
+                max = d;
+                min = d;
+            }
         }
         avg = sum/numItems;
         System.out.print("Sum: " + sum + "\nAvg: " + avg + "\nMin: " + min + "\nMax: " + max);
