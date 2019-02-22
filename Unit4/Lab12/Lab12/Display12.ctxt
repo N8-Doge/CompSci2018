@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Display12
+comment1.params=lis
+comment1.target=Display12(java.awt.event.ActionListener)
+comment2.params=
+comment2.target=void\ reset()
+comment3.params=target
+comment3.target=void\ displayWinner(int)
+comment4.params=target
+comment4.target=void\ displayLoser(int)
+comment5.params=guess
+comment5.target=void\ displayTooHigh(int)
+comment6.params=guess
+comment6.target=void\ displayTooLow(int)
+numComments=7

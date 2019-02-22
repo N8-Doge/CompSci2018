@@ -25,11 +25,14 @@ public class Display11 extends JPanel
 
     public void setValue( int num ){
         int foo = num;
-        int binary = 2;
-        for(int x = 7; x >= 0; x++){
-            output[x].setText(""+(foo%binary));
-            foo=foo-(foo%binary);
+        int binary = 1;
+        for(int x = 7; x >= 0; x--){
             binary*=2;
+            if(foo%binary!=0)
+                output[x].setText("1");
+            else
+                output[x].setText("0");
+            foo=foo-(foo%binary);
         }
     }
 }
