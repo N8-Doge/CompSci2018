@@ -1,6 +1,4 @@
 #BlueJ class context
-comment0.target=SmithNumberTest
-comment0.text=\r\n\ The\ test\ class\ SmithNumberTest.\r\n\r\n\ @author\ \ \r\n\ @version\ \r\n
-comment1.params=
-comment1.target=void\ testSmithNumber01()
-numComments=2
+comment0.params=
+comment0.target=void\ testSmithNumber01()
+numComments=1

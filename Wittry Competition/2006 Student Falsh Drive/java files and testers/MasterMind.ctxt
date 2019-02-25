@@ -1,13 +1,11 @@
 #BlueJ class context
-comment0.target=MasterMind
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ MasterMind\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ 2006\ Southern\ California\ programming\ contest\r\n
-comment1.params=s
-comment1.target=MasterMind(java.lang.String)
-comment1.text=\r\n\ \ Constructor\ need\ for\ MasterMind\ class\r\n
+comment0.params=s
+comment0.target=MasterMind(java.lang.String)
+comment0.text=\r\n\ \ Constructor\ need\ for\ MasterMind\ class\r\n
+comment1.params=guess
+comment1.target=int\ getCorrectColorIncorrectLocation(java.lang.String)
 comment2.params=guess
-comment2.target=int\ getCorrectColorIncorrectLocation(java.lang.String)
+comment2.target=int\ getCorrectColorCorrectLocation(java.lang.String)
 comment3.params=guess
-comment3.target=int\ getCorrectColorCorrectLocation(java.lang.String)
-comment4.params=guess
-comment4.target=boolean\ isCorrect(java.lang.String)
-numComments=5
+comment3.target=boolean\ isCorrect(java.lang.String)
+numComments=4

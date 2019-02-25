@@ -1,10 +1,10 @@
 /**
  * @author      Nathan Chen
  * @teacher     Coglianese
- * @version     #-##-19
+ * @version     2-25-19
  * @period      2
  * 
- * Performs program according to Lab05
+ * Performs program according to Lab05 by rolling dice
  */
 public class Driver05
 {
@@ -13,7 +13,7 @@ public class Driver05
     public static int count;
     
     /**
-     * Main executes upon run
+     * Main executes upon run, calculates dice experiments
      * 
      * @param    args    For jar
      */
@@ -41,10 +41,11 @@ public class Driver05
         // Experiment  3
         count = 0;
         int[] array = new int[13];
-        for(int i = 0; i<100; i++){
+        for(int i = 0; i<TRIALS; i++){
             d.roll();
-            if(d.doubles())
+            if(d.doubles()){
                 count++;
+            }
             array[d.total()]++;
         }
         for(int i = 2; i<=12; i++){

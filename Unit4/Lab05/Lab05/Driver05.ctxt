@@ -1,7 +1,5 @@
 #BlueJ class context
-comment0.target=Driver05
-comment0.text=\r\n\ @author\ \ \ \ \ \ Nathan\ Chen\r\n\ @teacher\ \ \ \ \ Coglianese\r\n\ @version\ \ \ \ \ \#-\#\#-19\r\n\ @period\ \ \ \ \ \ 2\r\n\ \r\n\ Performs\ program\ according\ to\ Lab05\r\n
-comment1.params=args
-comment1.target=void\ main(java.lang.String[])
-comment1.text=\r\n\ Main\ executes\ upon\ run\r\n\ \r\n\ @param\ \ \ \ args\ \ \ \ For\ jar\r\n
-numComments=2
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment0.text=\r\n\ Main\ executes\ upon\ run,\ calculates\ dice\ experiments\r\n\ \r\n\ @param\ \ \ \ args\ \ \ \ For\ jar\r\n
+numComments=1

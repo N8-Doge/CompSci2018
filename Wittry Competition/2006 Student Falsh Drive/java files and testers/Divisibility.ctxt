@@ -1,9 +1,7 @@
 #BlueJ class context
-comment0.target=Divisibility
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ Divisibility\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ 2006\ Southern\ California\ programming\ contest\r\n
-comment1.params=b
-comment1.target=Divisibility(int)
-comment1.text=\r\n\ Constructor\ need\ for\ Divisibility\ class\r\n
-comment2.params=nums\ divisor
-comment2.target=boolean\ getResult(java.lang.String[],\ java.lang.String)
-numComments=3
+comment0.params=b
+comment0.target=Divisibility(int)
+comment0.text=\r\n\ Constructor\ need\ for\ Divisibility\ class\r\n
+comment1.params=nums\ divisor
+comment1.target=boolean\ getResult(java.lang.String[],\ java.lang.String)
+numComments=2

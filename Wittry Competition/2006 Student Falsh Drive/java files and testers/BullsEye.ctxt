@@ -1,8 +1,10 @@
 #BlueJ class context
-comment0.target=BullsEye
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ BullsEye\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ 2006\ Southern\ California\ programming\ contest\r\n
-comment1.params=shot
-comment1.target=int\ calculateShot(Location)
-comment2.params=shots
-comment2.target=int\ calculateScore(java.util.ArrayList)
-numComments=3
+comment0.params=shot
+comment0.target=int\ calculateShot(Location)
+comment1.params=shots
+comment1.target=int\ calculateScore(java.util.ArrayList)
+comment2.params=shot
+comment2.target=int\ ring(Location)
+comment3.params=x\ y
+comment3.target=double\ radius(int,\ int)
+numComments=4
