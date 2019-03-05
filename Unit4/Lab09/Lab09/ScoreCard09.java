@@ -1,8 +1,21 @@
 import javax.swing.*;
 import java.awt.*;
+/**
+ * ScoreCard09 is for Display09 to score a golf game
+ * 
+ * @author      Nathan Chen
+ * @version     3-1-19
+ * @teacher     Coglianese
+ * @period      2
+ */
 public class ScoreCard09 extends JPanel
 {
+    //Instance Variables
     private JTextField[] input;
+    
+    /**
+     * Default constructor
+     */
     public ScoreCard09(){
         setLayout(new GridLayout(2, 18));
 
@@ -19,6 +32,9 @@ public class ScoreCard09 extends JPanel
         }
     }
 
+    /**
+     * Randomizes the scores
+     */
     public void randomize(){
         for(int x = 0; x < input.length; x++)
         {
@@ -26,6 +42,9 @@ public class ScoreCard09 extends JPanel
         }
     }
 
+    /**
+     * Returns total of scores as an integer
+     */
     public int findTotal(){
         int total=0;
         for(int x = 0; x < input.length; x++)
@@ -33,6 +52,9 @@ public class ScoreCard09 extends JPanel
         return total;
     }
 
+    /**
+     * Finds the number of hole in ones as an integer
+     */
     public int findAces()
     {
         int total=0;
@@ -42,6 +64,10 @@ public class ScoreCard09 extends JPanel
         return total+1;
     }
 
+    /**
+     * Returns the hole with the highest number as an integer 
+     * If more than one have the same score, returns the first
+     */
     public int findHardestHole(){
         int hardestIndex=0;
         int hardest=0;
@@ -55,6 +81,9 @@ public class ScoreCard09 extends JPanel
         return hardestIndex+1;
     }
 
+    /**
+     * Helper method for getting a random integer between 1 and 4
+     */
     public int randInt(){
         return (int) (Math.random()*4)+1;
     }

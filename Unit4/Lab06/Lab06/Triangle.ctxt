@@ -1,13 +1,17 @@
 #BlueJ class context
-comment0.target=Triangle
-comment1.params=x
-comment1.target=Triangle(double)
+comment0.params=x
+comment0.target=Triangle(double)
+comment0.text=\r\n\ Constructs\ a\ new\ Triangle\r\n\ \r\n\ @param\ \ \ x\ \ \ Double\ for\ side\r\n
+comment1.params=
+comment1.target=double\ findArea()
+comment1.text=\r\n\ Returns\ double\ of\ triangle's\ area\r\n
 comment2.params=
-comment2.target=double\ findArea()
+comment2.target=double\ findPerimeter()
+comment2.text=\r\n\ Returns\ double\ of\ triangle's\ perimeter\r\n
 comment3.params=
-comment3.target=double\ findPerimeter()
-comment4.params=
-comment4.target=double\ getSide()
-comment5.params=x
-comment5.target=void\ setSide(double)
-numComments=6
+comment3.target=double\ getSide()
+comment3.text=\r\n\ Returns\ double\ of\ triangle's\ side\r\n
+comment4.params=x
+comment4.target=void\ setSide(double)
+comment4.text=\r\n\ Sets\ triangle's\ side\r\n\ \r\n\ @param\ \ \ x\ \ \ Double\ for\ side\r\n
+numComments=5

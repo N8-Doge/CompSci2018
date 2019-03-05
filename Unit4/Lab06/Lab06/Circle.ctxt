@@ -1,13 +1,12 @@
 #BlueJ class context
-comment0.target=Circle
-comment1.params=x
-comment1.target=Circle(double)
-comment2.params=
-comment2.target=double\ getRadius()
-comment3.params=x
-comment3.target=void\ setRadius(double)
+comment0.params=x
+comment0.target=Circle(double)
+comment1.params=
+comment1.target=double\ getRadius()
+comment2.params=x
+comment2.target=void\ setRadius(double)
+comment3.params=
+comment3.target=double\ findArea()
 comment4.params=
-comment4.target=double\ findArea()
-comment5.params=
-comment5.target=double\ findCircumference()
-numComments=6
+comment4.target=double\ findCircumference()
+numComments=5

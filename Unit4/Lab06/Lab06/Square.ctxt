@@ -1,9 +1,11 @@
 #BlueJ class context
-comment0.target=Square
-comment1.params=x
-comment1.target=Square(double)
-comment2.params=
-comment2.target=double\ getSide()
-comment3.params=x
-comment3.target=void\ setSide(double)
-numComments=4
+comment0.params=x
+comment0.target=Square(double)
+comment0.text=\r\n\ Constructs\ a\ new\ Square\r\n\ \r\n\ @param\ \ \ x\ \ \ Double\ for\ side\r\n
+comment1.params=
+comment1.target=double\ getSide()
+comment1.text=\r\n\ Returns\ side\ as\ a\ Double\r\n
+comment2.params=x
+comment2.target=void\ setSide(double)
+comment2.text=\r\n\ Sets\ side\ of\ square\r\n\ \r\n\ @param\ \ \ x\ \ \ Double\ for\ side\r\n
+numComments=3

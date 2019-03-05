@@ -1,6 +1,20 @@
 import java.io.*;
+/**
+ * @author      Nathan Chen
+ * @author      Benjamin Tu
+ * @teacher     Coglianese
+ * @version     2-27-18
+ * @period      2
+ * 
+ * Driver06 creates objects that test the four concrete shape classes
+ */
 public class Driver06
 {
+    /**
+     * Tests Circle, Rectangle, Square, and Triangle, outputting to file
+     * 
+     * @param   args    Jar params, ignore
+     */
     public static void main(String[] args) throws Exception
     {
         System.setOut(new PrintStream(new FileOutputStream("output.txt")));
@@ -8,7 +22,7 @@ public class Driver06
         //create the objects
         Circle c = new Circle(75);
         Rectangle r = new Rectangle(30.0, 40.);    
-        Square s = new Square(50.0); 	
+        Square s = new Square(50.0);    
         Triangle t = new Triangle(37);
 
         //test the instance methods
@@ -45,7 +59,7 @@ public class Driver06
         System.out.println("Height: " + s.getHeight());
         System.out.println("Area: " + s.findArea());
         System.out.println("Perimeter: " + s.findPerimeter());
-        System.out.println("Diagonal: " + s.findDiagonal());	
+        System.out.println("Diagonal: " + s.findDiagonal());    
         System.out.println(); 
 
         System.out.println("Triangle");
