@@ -17,10 +17,9 @@ public class Panel11 extends JPanel
         a display is in the center.
          *********************/
         JPanel north = new JPanel();
-        north.setLayout(new GridLayout());
         add(north, BorderLayout.NORTH);
         label = new JLabel("Enter an integer from 0 to 255:");
-        box = new JTextField(1);
+        box = new JTextField(5);
         north.add(label);
         north.add(box);
         display = new Display11();

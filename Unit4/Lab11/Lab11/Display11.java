@@ -1,9 +1,22 @@
 import javax.swing.*;
 import java.awt.*;
+/**
+ * Class Display is a display of binary that changes according to values called
+ * 
+ * @author      Nathan Chen
+ * @teacher     Coglianese
+ * @period      2
+ * @version     3-6-19
+ */
 public class Display11 extends JPanel
 {
+    //Instance variables
     private JLabel[] output;
     private int[] bits;
+    
+    /**
+     * Default constructor, makes a JPanel of labels
+     */
     public Display11(){
         setLayout(new GridLayout(1, 8));
 
@@ -18,20 +31,31 @@ public class Display11 extends JPanel
         setBlank();
     }
 
+    /**
+     * Sets the JLabels of the panel to "-"
+     */
     public void setBlank(){    
-        for(int x = 0; x <= 7; x++)
+        for(int x = 0; x <= 7; x++){
             output[x].setText("-");
+        }
     }
 
+    /**
+     * Sets the JLabels of the panel to the binary representation of an integer
+     * 
+     * @param   num     Integer to convert to binary
+     */
     public void setValue( int num ){
         int foo = num;
         int binary = 1;
         for(int x = 7; x >= 0; x--){
             binary*=2;
-            if(foo%binary!=0)
+            if(foo%binary!=0){
                 output[x].setText("1");
-            else
+            }
+            else{
                 output[x].setText("0");
+            }
             foo=foo-(foo%binary);
         }
     }

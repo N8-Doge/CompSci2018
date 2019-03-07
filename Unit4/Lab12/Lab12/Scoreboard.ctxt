@@ -1,9 +1,8 @@
 #BlueJ class context
-comment0.target=Scoreboard
-comment1.params=
-comment1.target=Scoreboard()
-comment2.params=b
-comment2.target=void\ newGame(boolean)
-comment3.params=
-comment3.target=void\ update()
-numComments=4
+comment0.params=
+comment0.target=Scoreboard()
+comment1.params=b
+comment1.target=void\ newGame(boolean)
+comment2.params=
+comment2.target=void\ update()
+numComments=3

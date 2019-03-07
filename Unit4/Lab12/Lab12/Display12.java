@@ -1,10 +1,24 @@
-//Name______________________________ Date_____________
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
+/**
+ * Display12 isa JPanel with 25 buttons in an array
+ * 
+ * @author      Nathan Chen
+ * @version     3-7-19
+ * @teacher     Coglianese
+ * @period      2
+ */
 public class Display12 extends JPanel
 {
+    //Instance variables
     private JButton[] button;
+    
+    /**
+     * Creates a new Display12 using a provided ActionListener
+     * 
+     * @param       lis     ActionListener for the 25 buttons
+     */
     public Display12(ActionListener lis)
     {
         setLayout(new GridLayout(5, 5, 5, 5));
@@ -21,6 +35,9 @@ public class Display12 extends JPanel
         }
     }
 
+    /**
+     * Resets the buttons in the array
+     */
     public void reset()
     {
         for(int x = 0; x < 25; x++)
@@ -31,6 +48,11 @@ public class Display12 extends JPanel
         }
     }
 
+    /**
+     * Makes target button green and the rest gray and disables them
+     * 
+     * @param       target      Int for button to be green
+     */
     public void displayWinner(int target)
     {
         for(int x = 0; x < 25; x++)
@@ -43,6 +65,11 @@ public class Display12 extends JPanel
         button[target-1].setBackground(Color.green);
     }
 
+    /**
+     * Makes all the buttons red and target black and disables them
+     * 
+     * @param       target      Int for button that is black
+     */
     public void displayLoser(int target)
     {
         for(int x = 0; x < 25; x++)
@@ -55,6 +82,11 @@ public class Display12 extends JPanel
         button[target-1].setBackground(Color.black);;
     }
 
+    /**
+     * Disables the buttons from the last to the one guessed, makes them red
+     * 
+     * @param       guess       Int for button guessed
+     */
     public void displayTooHigh(int guess)
     {
         for(int x = button.length-1; x >= guess-1; x--){
@@ -64,6 +96,11 @@ public class Display12 extends JPanel
         }
     }
 
+    /**
+     * Disables the buttons from the start to the one guessed, makes them red
+     * 
+     * @param       guess       Int for button guessed
+     */
     public void displayTooLow(int guess)
     {
         for(int x = 0; x < guess; x++){
