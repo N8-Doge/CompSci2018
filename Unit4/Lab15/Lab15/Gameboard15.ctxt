@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=a
+comment0.target=Gameboard15(java.awt.event.ActionListener)
+comment1.params=
+comment1.target=void\ freeze()
+comment2.params=
+comment2.target=void\ reset()
+comment3.params=
+comment3.target=boolean\ filled()
+comment4.params=
+comment4.target=boolean\ winner()
+numComments=5
