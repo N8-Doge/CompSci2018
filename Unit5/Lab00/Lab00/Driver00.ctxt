@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment0.text=\r\n\ Main\ runs\ upon\ the\ execution\ of\ the\ program\r\n\ \r\n\ @param\ \ \ args\ \ \ \ Array\ of\ strings\ from\ terminal\ execution\r\n
+comment1.params=apple
+comment1.target=int\ findMin(double[])
+comment1.text=\r\n\ Finds\ the\ position\ of\ the\ smallest\ double\ in\ an\ array\r\n\ \r\n\ @param\ \ \ apple\ \ \ Array\ of\ doubles\ to\ search\ through\r\n
+comment2.params=banana
+comment2.target=int\ findMax(double[])
+comment2.text=\r\n\ Finds\ the\ position\ of\ the\ largest\ double\ in\ an\ array\r\n\ \r\n\ @param\ \ \ banana\ \ Array\ of\ doubles\ to\ search\ through\r\n
+numComments=3
