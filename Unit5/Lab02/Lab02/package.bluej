@@ -1,8 +1,8 @@
 #BlueJ package file
 package.editor.height=400
 package.editor.width=560
-package.editor.x=197
-package.editor.y=286
+package.editor.x=30
+package.editor.y=30
 package.numDependencies=0
 package.numTargets=1
 package.showExtends=true
@@ -10,10 +10,10 @@ package.showUses=true
 project.charset=UTF-8
 target1.editor.height=700
 target1.editor.width=900
-target1.editor.x=197
-target1.editor.y=13
+target1.editor.x=198
+target1.editor.y=99
 target1.height=50
-target1.name=Driver01
+target1.name=Driver02
 target1.naviview.expanded=true
 target1.showInterface=false
 target1.type=ClassTarget

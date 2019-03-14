@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment0.text=\r\n\ Main\ runs\ upon\ compiling,\ sorts\ array\ then\ outputs\ to\ file\r\n\ \r\n\ @param\ \ \ args\ \ \ \ Ignore\r\n
+comment1.params=filename
+comment1.target=double[]\ input(java.lang.String)
+comment1.text=\r\n\ Gets\ array\ of\ doubles\ from\ a\ file\r\n\ \r\n\ @param\ \ \ filename\ \ \ \ String\ for\ path\ to\ file\r\n
+comment2.params=array
+comment2.target=void\ sort(double[])
+comment2.text=\r\n\ Sorts\ an\ array\ of\ doubles\r\n\ \r\n\ @param\ \ \ array\ \ \ Array\ of\ doubles\ to\ be\ sorted\r\n
+comment3.params=array\ upper
+comment3.target=int\ findMax(double[],\ int)
+comment3.text=\r\n\ Finds\ the\ index\ of\ the\ largest\ in\ a\ part\ of\ an\ array\r\n\ \r\n\ @param\ \ \ array\ \ \ Array\ of\ doubles\ to\ be\ searched\r\n\ @param\ \ \ upper\ \ \ Integer\ index\ for\ end\ of\ array\ to\ search\ through\r\n
+comment4.params=array\ a\ b
+comment4.target=void\ swap(double[],\ int,\ int)
+comment4.text=\r\n\ Swaps\ two\ doubles\ in\ an\ array\r\n\ \r\n\ @param\ \ \ array\ \ \ Array\ of\ doubles\ to\ be\ swapped\r\n\ @param\ \ \ a\ \ \ \ \ \ \ Integer\ index\ of\ first\ number\ to\ swap\r\n\ @param\ \ \ b\ \ \ \ \ \ \ Integer\ index\ of\ second\ number\ to\ swap\r\n
+comment5.params=array\ filename
+comment5.target=void\ output(double[],\ java.lang.String)
+comment5.text=\r\n\ Outputs\ an\ array\ to\ a\ file\r\n\ \r\n\ @param\ \ \ array\ \ \ Array\ of\ doubles\ to\ print\ out\r\n\ @param\ \ \ filename\ \ \ \ String\ for\ path\ to\ file\ to\ print\ to\r\n
+numComments=6
