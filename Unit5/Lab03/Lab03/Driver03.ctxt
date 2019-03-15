@@ -1,10 +1,20 @@
 #BlueJ class context
 comment0.params=args
 comment0.target=void\ main(java.lang.String[])
+comment0.text=\r\n\ Main\ executes\ upon\ running\ jar\r\n\ \r\n\ @param\ \ \ args\ \ \ \ Ignore\r\n
 comment1.params=arr
 comment1.target=void\ print(int[])
-comment2.params=scramble
+comment1.text=\r\n\ Prints\ an\ array\ of\ integers\r\n\ \r\n\ @param\ \ \ arr\ \ \ \ \ Array\ of\ integers\ to\ be\ printed\r\n
+comment2.params=arr
 comment2.target=void\ scramble(int[])
+comment2.text=\r\n\ Scrambles\ an\ array\r\n\ \r\n\ @param\ \ \ arr\ \ \ \ \ Array\ of\ integers\ to\ be\ scrambled\r\n
 comment3.params=arr
 comment3.target=void\ sort(int[])
-numComments=4
+comment3.text=\r\n\ Sorts\ an\ array\r\n\ \r\n\ @param\ \ \ arr\ Array\ of\ integers\ to\ be\ sorted\r\n
+comment4.params=arr\ i
+comment4.target=int\ findMax(int[],\ int)
+comment4.text=\r\n\ Finds\ max\ integer\ in\ a\ section\ of\ an\ array\r\n\ \r\n\ @return\ \ maximum\ int\ in\ array\ section\r\n\ @param\ \ \ arr\ \ \ \ \ Array\ to\ search\ through\r\n\ @param\ \ \ i\ \ \ \ \ \ \ Last\ index\ to\ search\ through\r\n
+comment5.params=arr\ i\ j
+comment5.target=void\ swap(int[],\ int,\ int)
+comment5.text=\r\n\ Swaps\ two\ items\ in\ array\ of\ integers\r\n\ \r\n\ @param\ \ \ arr\ \ \ \ \ Array\ of\ ints\ to\ be\ swapped\r\n\ @param\ \ \ i\ \ \ \ \ \ \ First\ int\ index\r\n\ @param\ \ \ j\ \ \ \ \ \ \ Second\ int\ index\r\n
+numComments=6
