@@ -13,8 +13,13 @@ public class Weight implements Comparable<Weight>
     }
     
     public int compareTo(Weight w){
-        double weight;
-        return -1;
+        double weight=pounds+(ounces*0.0625);
+        double compare=w.getPounds()+(w.getOunces()*0.0625);
+        if(weight>compare)
+            return 1;
+        if(weight<compare)
+            return -1;
+        return 0;
     }
     
     public String toString(){

@@ -11,4 +11,6 @@ comment4.params=array\ index
 comment4.target=int\ findMax(java.lang.Comparable[],\ int)
 comment5.params=array\ maxPos\ minPos
 comment5.target=void\ swap(java.lang.Comparable[],\ int,\ int)
-numComments=6
+comment6.params=s\ array
+comment6.target=void\ print(java.lang.String,\ java.lang.Comparable[])
+numComments=7
