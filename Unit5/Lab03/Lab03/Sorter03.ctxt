@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=array
+comment0.target=void\ bubbleSort(int[])
+comment0.text=\r\n\ Sorts\ array\ given\ with\ bubble\ sort\ algorithm\r\n\ \r\n\ @param\ \ \ array\ \ \ Array\ of\ ints\ to\ sort\r\n
+comment1.params=array
+comment1.target=void\ insertionSort(int[])
+comment1.text=\r\n\ Sorts\ array\ given\ with\ insertion\ sort\ algorithm\r\n\ \r\n\ @param\ \ \ array\ \ \ Array\ of\ ints\ to\ sort\r\n
+comment2.params=array\ a\ b
+comment2.target=void\ swap(int[],\ int,\ int)
+comment2.text=\r\n\ Swaps\ two\ elements\ in\ an\ array\r\n\ \r\n\ @param\ \ \ array\ \ \ Array\ of\ ints\ to\ swap\r\n\ @param\ \ \ a\ \ \ \ \ \ \ First\ integer\ index\r\n\ @param\ \ \ b\ \ \ \ \ \ \ Second\ integer\ index\r\n
+comment3.params=array\ a\ b
+comment3.target=void\ shift(int[],\ int,\ int)
+comment3.text=\r\n\ Shifts\ an\ element\ down\ an\ array\r\n\ \r\n\ @param\ \ \ array\ \ \ Array\ of\ ints\ to\ shift\r\n\ @param\ \ \ a\ \ \ \ \ \ \ Integer\ index\ of\ shifting\ element\r\n\ @param\ \ \ b\ \ \ \ \ \ \ Integer\ index\ of\ final\ resting\ place\r\n
+numComments=4
