@@ -1,14 +1,25 @@
-//Name______________________________ Date_____________
-
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
+/**
+ * Panel15 hasa Gameboard15 and Scoreboard15 that connects them to play TicTacToe
+ * 
+ * @author      Nathan Chen
+ * @version     3-10-19
+ * @period      2
+ * @teacher     Coglianese
+ */
 public class Panel15 extends JPanel
 {
+    //Instance variables
     private Scoreboard15 scoreboard;
     private Gameboard15 gameboard;
     private JButton reset;
     private JLabel label;
+    
+    /**
+     * Default constructor creates a Panel15
+     */
     public Panel15()
     {
         setLayout(new BorderLayout());
@@ -65,6 +76,7 @@ public class Panel15 extends JPanel
             gameboard.reset();
             reset.setEnabled(false);
             label.setText("");
+            scoreboard.toggle();
         }
     }
 }

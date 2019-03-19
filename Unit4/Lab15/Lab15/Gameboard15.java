@@ -2,14 +2,26 @@ import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 /**
+ * Gameboard15 is where TicTacToe is played
  * 
+ * @author      Nathan Chen
+ * @teacher     Coglianese
+ * @version     3-10-19
+ * @period      2
  */
 public class Gameboard15 extends JPanel
 {
+    //Instance variables
     private JButton[][] board;
     private String gamepiece;
     private Color color;
     private int count;
+    
+    /**
+     * Constructor for Gameboard15 that uses ActionListeners for buttons
+     * 
+     * @param   a   ActionListener for button array
+     */
     public Gameboard15(ActionListener a)
     {
         gamepiece = "X";
@@ -43,18 +55,24 @@ public class Gameboard15 extends JPanel
 
         public void actionPerformed(ActionEvent e)
         {
-            if(count%2==0){
-                board[myX][myY].setText("X");
-                board[myX][myY].setBackground(Color.green);
+            board[myX][myY].setText(gamepiece);
+            board[myX][myY].setBackground(color);
+            board[myX][myY].setEnabled(false);
+            if(gamepiece.equals("X")){
+                gamepiece="O";
+                color=Color.blue;
             }
             else{
-                board[myX][myY].setText("O");
-                board[myX][myY].setBackground(Color.blue);
+                gamepiece="X";
+                color=Color.green;
             }
             count++;
-            board[myX][myY].setEnabled(false);
         }
     }
+    
+    /**
+     * Freezes the board so that only reset can be called
+     */
     public void freeze()
     {
         for(int x = 0; x < 3; x++){
@@ -64,6 +82,9 @@ public class Gameboard15 extends JPanel
         }
     }
 
+    /**
+     * Resets the board so that game can be played
+     */
     public void reset()
     {
         for(int x = 0; x < 3; x++){
@@ -77,18 +98,17 @@ public class Gameboard15 extends JPanel
         count=0;
     }
 
+    /**
+     * Returns whether or not board is filled
+     */
     public boolean filled()
     {
-        for(int x = 0; x < 3; x++){
-            for(int y = 0; y < 3; y++){
-                if(board[x][y].getText().equals("-")){
-                    return false;
-                }
-            }
-        }
-        return true;
+        return (count==9);
     }
 
+    /**
+     * Returns whether or not the game has a winner
+     */
     public boolean winner()
     {
         for(int x = 0; x < 3; x++){

@@ -1,7 +1,13 @@
-//Torbert, e-mail: mr@torbert.com, website: www.mr.torbert.com
-//version 4.5.2003
-
 import javax.swing.JFrame;
+/**
+ * Runs Unit4, Lab15: TicTacToe
+ * 
+ * @author      Torbert
+ * @author      Nathan Chen
+ * @period      2
+ * @teacher     Coglianese
+ * @version     3-10-19
+ */
 public class Driver15
 {
     public static void main(String[] args)

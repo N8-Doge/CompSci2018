@@ -1,14 +1,14 @@
 import java.io.*;
 import java.util.*;
 /**
- * Driver04 creates Weight Comparables from a text file then sorts them
+ * Driver05 creates Distance Comparables from a text file then sorts them
  * 
  * @author  Nathan Chen
- * @version 3-19-19
+ * @version 3-20-19
  * @teacher Coglianese
  * @period 2
  */
-public class Driver04
+public class Driver05
 {
     /**
      * Main executes upon run
@@ -34,10 +34,10 @@ public class Driver04
     {   
         Scanner infile = new Scanner( new File(filename) );
         int numitems = infile.nextInt();
-        Comparable[] array = new Weight[numitems];
+        Comparable[] array = new Distance[numitems];
         for(int k = 0; k < numitems; k++)
         {
-            array[k]=new Weight(infile.nextInt(),infile.nextInt());
+            array[k]=new Distance(infile.nextInt(),infile.nextInt());
         }
         infile.close();
         return array;
@@ -73,8 +73,15 @@ public class Driver04
             maxPos = findMax(array, array.length - k);
             swap(array, maxPos, array.length - k - 1);
         }
+        //Extension Code
+        //int minPos;
+        //for(int k = 0; k < array.length; k++)
+        //{
+        //    minPos = findMin(array, array.length - k);
+        //    swap(array, minPos, array.length - k - 1);
+        //}
     }
-    
+
     /**
      * Finds the largest Comparable in a section of an array using the compareTo method
      * 
@@ -82,7 +89,7 @@ public class Driver04
      * @param   index   Integer index of last element in section
      * @return          Gets the index of the largest Comparable
      */
-    public static int findMax(Comparable[] array, int index){
+    private static int findMax(Comparable[] array, int index){
         int temp = 0;
         for(int i=0;i<index;++i){
             if(array[temp].compareTo(array[i])==-1){
@@ -93,13 +100,30 @@ public class Driver04
     }
     
     /**
+     * Finds the smallest Comparable in a section of an array using the compareTo method
+     * 
+     * @param   array   Array of Comparables to search through
+     * @param   index   Integer index of last element in section
+     * @return          Gets the index of the smallest Comparable
+     */
+    private static int findMin(Comparable[] array, int index){
+        int temp = index-1;
+        for(int i=0;i<index;++i){
+            if(array[temp].compareTo(array[i])==1){
+                temp=i;
+            }
+        }
+        return temp;
+    }
+
+    /**
      * Helper method to swap two elements in a Comparable array
      * 
      * @param   array   Array of Comparable to swap elements
      * @param   a       Integer index of first element to swap
      * @param   b       Integer index of second element to swap
      */
-    public static void swap(Comparable[] array, int a, int b){
+    private static void swap(Comparable[] array, int a, int b){
         Comparable temp = array[a];
         array[a]=array[b];
         array[b]=temp;
