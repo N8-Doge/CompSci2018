@@ -73,6 +73,13 @@ public class Driver05
             maxPos = findMax(array, array.length - k);
             swap(array, maxPos, array.length - k - 1);
         }
+        //Extension Code
+        //int minPos;
+        //for(int k = 0; k < array.length; k++)
+        //{
+        //    minPos = findMin(array, array.length - k);
+        //    swap(array, minPos, array.length - k - 1);
+        //}
     }
 
     /**
@@ -86,6 +93,23 @@ public class Driver05
         int temp = 0;
         for(int i=0;i<index;++i){
             if(array[temp].compareTo(array[i])==-1){
+                temp=i;
+            }
+        }
+        return temp;
+    }
+    
+    /**
+     * Finds the smallest Comparable in a section of an array using the compareTo method
+     * 
+     * @param   array   Array of Comparables to search through
+     * @param   index   Integer index of last element in section
+     * @return          Gets the index of the smallest Comparable
+     */
+    private static int findMin(Comparable[] array, int index){
+        int temp = index-1;
+        for(int i=0;i<index;++i){
+            if(array[temp].compareTo(array[i])==1){
                 temp=i;
             }
         }
