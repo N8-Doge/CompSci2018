@@ -20,26 +20,27 @@ public class Driver06 {
         int length = infile.nextInt();
         String[] array = new String[length];
         PrintStream p = new PrintStream(System.out);
+        System.setOut(new PrintStream(new FileOutputStream("output.txt")));
+        
         for(int i=0;i<length;++i){
             array[i]=infile.nextLine();
         }
         
-        boolean b=true;
-        while(b){
-            b=false;
-            for(int i=0;i<length-1;++i){
-                if(array[i].compareTo(array[i+1])>0){
-                    String temp = array[i];
-                    array[i]=array[i+1];
-                    array[i+1]=temp;
-                    b=true;
+        for(int i=length-1;i>0;--i){
+            int max=i;
+            for(int j=i;j>=0;--j){
+                if(array[max].compareTo(array[j])<0){
+                    max=j;
                 }
             }
+            String temp=array[max];
+            array[max]=array[i];
+            array[i]=temp;
         }
         
-        System.setOut(new PrintStream(new FileOutputStream("output.txt")));
         for(String s:array){
             System.out.println(s);
         }
+        System.setOut(p);
     }
 }
