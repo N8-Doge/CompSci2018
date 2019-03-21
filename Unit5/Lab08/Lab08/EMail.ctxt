@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=address
+comment0.target=EMail(java.lang.String)
+comment1.params=
+comment1.target=java.lang.String\ getUserName()
+comment2.params=
+comment2.target=java.lang.String\ getHostName()
+comment3.params=
+comment3.target=java.lang.String\ getExtension()
+comment4.params=
+comment4.target=java.lang.String\ toString()
+numComments=5

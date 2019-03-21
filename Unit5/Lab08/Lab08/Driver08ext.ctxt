@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment1.params=fileuserName
+comment1.target=EMail[]\ input(java.lang.String)
+comment2.params=array
+comment2.target=void\ menu(EMail[])
+comment3.params=array
+comment3.target=void\ save(EMail[])
+comment4.params=array
+comment4.target=void\ add(EMail[])
+comment5.params=array\ userName
+comment5.target=int\ search(EMail[],\ java.lang.String)
+comment6.params=array\ c
+comment6.target=void\ display(EMail[],\ java.util.Comparator)
+comment7.params=array\ c
+comment7.target=void\ sort(java.lang.Object[],\ java.util.Comparator)
+comment8.params=array\ upper\ c
+comment8.target=int\ findMin(java.lang.Object[],\ int,\ java.util.Comparator)
+comment9.params=array\ a\ b
+comment9.target=void\ swap(java.lang.Object[],\ int,\ int)
+numComments=10
