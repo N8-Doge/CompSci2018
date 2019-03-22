@@ -8,8 +8,8 @@ public class EMail
         int at = address.indexOf("@");
         int dot = address.indexOf(".");
         myUserName=address.substring(0,at);
-        myHostName=address.substring(at,dot);
-        myExtension=address.substring(dot);
+        myHostName=address.substring(at+1,dot);
+        myExtension=address.substring(dot+1);
     }
 
     public String getUserName()

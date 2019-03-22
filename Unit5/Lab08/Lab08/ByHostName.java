@@ -1,4 +1,6 @@
 public class ByHostName implements java.util.Comparator<EMail>
 {
-    public int compare(EMail arg1, EMail arg2){return -99;}
+    public int compare(EMail arg1, EMail arg2){
+        return arg1.getHostName().compareTo(arg2.getHostName());
+    }
 }

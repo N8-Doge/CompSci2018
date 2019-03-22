@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=s
+comment0.target=Song(java.lang.String)
+comment1.params=s
+comment1.target=int\ compareTo(Song)
+comment2.params=s
+comment2.target=boolean\ equals(Song)
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment4.params=s
+comment4.target=void\ setTitle(java.lang.String)
+comment5.params=m
+comment5.target=void\ setMinutes(int)
+comment6.params=s
+comment6.target=void\ setSeconds(int)
+comment7.params=
+comment7.target=java.lang.String\ getTitle()
+comment8.params=
+comment8.target=int\ getMinutes()
+comment9.params=
+comment9.target=int\ getSeconds()
+numComments=10

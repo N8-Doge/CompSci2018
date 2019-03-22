@@ -35,7 +35,7 @@ public class Driver08ext
     public static void menu(EMail[]array)
     {
         int choice = 0;
-        while(choice != 7)
+        while(choice != 6)
         {
             String message = "";
             message = message + "\n1. List by User Name.";
@@ -118,8 +118,8 @@ public class Driver08ext
         for(int i=0;i<array.length;++i){
             temp[i]=array[i];
         }
-        temp[array.length]=new EMail(message);
-        System.out.println("Sales added.");
+        temp[array.length]=new EMail(email);
+        System.out.println("EMail added.");
     }
 
     public static int search(EMail[] array, String userName)

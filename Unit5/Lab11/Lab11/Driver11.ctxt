@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=base\ exp
+comment0.target=int\ power(int,\ int)
+comment1.params=n
+comment1.target=int\ factorial(int)
+comment2.params=n
+comment2.target=int\ fib(int)
+comment3.params=a\ b
+comment3.target=int\ gcd(int,\ int)
+comment4.params=args
+comment4.target=void\ main(java.lang.String[])
+numComments=5
