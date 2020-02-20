@@ -1,5 +1,0 @@
-#BlueJ class context
-comment0.params=
-comment0.target=java.lang.String\ getWinner()
-comment0.text=\r\n\ @param\ \ y\ \ \ \r\n\ @return\ \ \ \ \ the\ name\ of\ the\ player\ with\ the\ winning\ hand\r\n
-numComments=1

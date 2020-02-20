@@ -1,7 +1,0 @@
-#BlueJ class context
-comment0.params=f
-comment0.target=OnTarget(java.util.ArrayList)
-comment0.text=\r\n\ Constructor\ needed\ for\ OnTarget\ class\r\n
-comment1.params=
-comment1.target=int\ numTargets()
-numComments=2

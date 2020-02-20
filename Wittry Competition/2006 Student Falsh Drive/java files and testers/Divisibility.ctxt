@@ -1,7 +1,0 @@
-#BlueJ class context
-comment0.params=b
-comment0.target=Divisibility(int)
-comment0.text=\r\n\ Constructor\ need\ for\ Divisibility\ class\r\n
-comment1.params=nums\ divisor
-comment1.target=boolean\ getResult(java.lang.String[],\ java.lang.String)
-numComments=2
